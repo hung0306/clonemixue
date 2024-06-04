@@ -1,0 +1,257 @@
+.header__top {
+  background-color: #C62D2D;
+  width: 100%;
+  padding: 3px 0px;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+}
+.header__content {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__content li {
+  list-style-type: none;
+  padding: 5px;
+  color: white;
+  font-size: 12px;
+  border-right: 1px solid white;
+  display: block;
+  margin: 0px;
+  text-align: center;
+  padding: 0px 12px;
+}
+.header__icon {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+.header__icon i {
+  color: white;
+}
+.header__icon a {
+  padding: 0px 10px;
+}
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  position: sticky;
+  z-index: 9999;
+}
+.header__img {
+  height: 90px;
+  object-fit: cover;
+  width: 25%;
+}
+.header__img img {
+  width: 100%;
+}
+.header__order {
+  width: 10%;
+}
+.header__order i:first-child {
+  padding: 0px 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border-right: 1px solid #ddd;
+}
+.header__input {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+.header__input i {
+  position: absolute;
+  right: 90px;
+  top: 10px;
+  color: black;
+}
+.header__input input {
+  width: 80%;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  padding: 3px 13px;
+  outline: 0;
+}
+.header__bot {
+  background-color: #F1F1F1;
+}
+.header__forum {
+  display: flex;
+  justify-content: center;
+}
+.header__forum li {
+  padding: 10px 20px;
+  color: #C62D2D;
+  font-weight: 500;
+  position: relative;
+  margin-right: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+}
+.header__forum li::after {
+  content: " ";
+  height: 3px;
+  width: 75%;
+  position: absolute;
+  top: 0;
+  background-color: red;
+  display: none;
+}
+.header__forum li:hover::after {
+  display: block;
+  clear: both;
+  transition: all 0.3s;
+}
+
+.section__one img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.two {
+  padding: 30px 0px;
+}
+.two__title {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.two__title b {
+  height: 2px;
+  display: inline-block;
+  background-color: #ddd;
+  width: 100%;
+  flex: 1;
+}
+.two__title h3 {
+  text-transform: uppercase;
+  padding: 0px 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.two__img {
+  aspect-ratio: 3/4;
+  position: relative;
+}
+.two__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+.two__img p {
+  background-color: #446084;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 3px;
+  display: none;
+}
+.two__img:hover p {
+  display: block;
+}
+.two__info h5 {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.two__info p {
+  font-size: 13px;
+  margin: 0px;
+}
+
+.last {
+  padding-bottom: 100px;
+}
+.last__title {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.last__title b {
+  height: 2px;
+  display: block;
+  background-color: #ddd;
+  width: 100%;
+  flex: 1;
+}
+.last__title h3 {
+  padding: 0 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.last__img {
+  padding: 0px 30px;
+  position: relative;
+}
+.last__img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0px 30px;
+}
+.last__conlai {
+  text-align: center;
+  background-color: #C62D2D;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 40px;
+  padding: 8px 0px;
+}
+.last__conlai h5 {
+  text-transform: uppercase;
+  margin: 0px;
+}
+.last__conlai p {
+  margin: 0px;
+}
+
+.content__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.content b {
+  height: 2px;
+  display: inline-block;
+  background-color: #ddd;
+  width: 100%;
+  flex: 1;
+}
+.content h3 {
+  text-transform: uppercase;
+  padding: 0px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+.content__one {
+  text-align: center;
+}
+.content__one h2 {
+  font-size: 15px;
+}
+.content__one h4 {
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
